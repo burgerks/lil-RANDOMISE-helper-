@@ -45,9 +45,6 @@ for tstat_file in randomise_output/rnd_tfce_corrp_tstat*.nii.gz; do
     --osize=randomise_output/cluster_size_tstat${contrast_num} \
     --scalarname=T > randomise_output/2_cluster_report_c${contrast_num}.txt
 
- #cluster -i randomise_output/rnd_tfce_corrp_tstat${contrast_num} -t 0.95 \ 
-  # -c randomise_output/tfce_95_tstat_BOLD${contrast_num} \
-  #  --scalarname=1-p > cluster_corrpc${contrast_num}.txt
   
 done
 

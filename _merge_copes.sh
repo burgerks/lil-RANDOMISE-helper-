@@ -34,7 +34,7 @@ echo "========== CHECKING FILES AND ORIENTATION HEADERS =========="
 # Collect all available cope files and compare geometry/orientation headers
 for subj in "${subjects[@]}"; do
 
-  cope_path="/Volumes/macX/bevel/bevel_fMRI/${subj}/func/Analysis/feat2/feat2_expanded/${subj}.gfeat/cope7.feat/stats/cope1.nii.gz"
+  cope_path="/XXX/XXXX/XXXX/${subj}/func/Analysis/feat2/${subj}.gfeat/copeXXX.feat/stats/copeX.nii.gz"
 
   if [ -f "$cope_path" ]; then
 
